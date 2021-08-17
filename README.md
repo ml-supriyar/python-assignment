@@ -4,4 +4,6 @@ Python script that searches for lines matching regular expression -r (--regex) i
 
 This script uses re module to which lets you check if a particular string matches a given regular expression (or if a given regular expression matches a particular string, which comes down to the same thing).
 
+## Sample Output:
+
 
