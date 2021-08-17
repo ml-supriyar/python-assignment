@@ -1,8 +1,14 @@
 # Python Assignment
 
-Python script that searches for lines matching regular expression -r (--regex) in file/s -f (--files), Print if a line matches with file name and the line number for every match.
+Python script that searches for lines matching regular expression -r (--regex) in file/s -f (--files). If a line matches the given pattern then print the file name and the line.
 
-This script uses re module to which lets you check if a particular string matches a given regular expression (or if a given regular expression matches a particular string, which comes down to the same thing).
+This script uses re module to which lets you check if a particular string matches a given regular expression.
+
+If -m ( --machine ) flag is 1 it will generate machine readable output with the below format.
+file_name:no_line:start_pos:matched_text
+If -m is 0 then it will print the below format.
+Filename:line
+
 
 ## Below are some Sample Outputs:
 ```
