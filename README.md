@@ -8,7 +8,7 @@ If -m ( --machine ) flag is 1 it will generate machine readable output with the 
 file_name:no_line:start_pos:matched_text
 
 f -m is 0 then it will print the below format.<br/>
-Filename:line
+file_name:line
 
 
 ## Below are some Sample Outputs:
