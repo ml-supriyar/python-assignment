@@ -53,7 +53,7 @@ def main():
     path = args.files
     machine=args.machine
     pattern=args.regex
-# Handles error
+# Handles error  , if machine is none then it will be initialized to zero
     if machine==None:
         machine=0
     try:
@@ -61,9 +61,11 @@ def main():
     except:
         print("Please enter 0 or 1 for -m flag")
         return
+# If -m flag is 0 and one it goes to regex_search function 
     if machine==1 or machine==0:
         try:
             regex_search(path,pattern,machine)
+# If path and patern is empty then it will thow erro
         except:
             print("please enter filename with f flag and pattern with -r flag")
             return
