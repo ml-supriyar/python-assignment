@@ -15,11 +15,11 @@ sampletxt.txt:3:45:hello
 sampletxt.txt:3:63:hello
 
 ```
-Above is machine readable output
+Above is machine readable output with -m flag.
 
 ```
 Cmd 2:
-python3 regex_match.py -f sampletxt.txt -r hello -m 1
+python3 regex_match.py -f sampletxt.txt -r hello
 
 Output:
 sampletxt.txt:Try to hello use OOP in order to encapsulate hello differences hello between output
@@ -29,3 +29,4 @@ sampletxt.txt:Try to hello use OOP in order to encapsulate hello differences hel
 sampletxt.txt:Try to hello use OOP in order to encapsulate hello differences hello between output
 
 ```
+This is the normal output without -m flag
