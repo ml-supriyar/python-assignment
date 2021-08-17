@@ -4,7 +4,7 @@ Python script that searches for lines matching regular expression -r (--regex) i
 
 This script uses re module to which lets you check if a particular string matches a given regular expression.
 
-If -m ( --machine ) flag is 1 it will generate machine readable output with the below format. <\br>
+If -m ( --machine ) flag is 1 it will generate machine readable output with the below format. <br/>
 file_name:no_line:start_pos:matched_text
 
 f -m is 0 then it will print the below format.
