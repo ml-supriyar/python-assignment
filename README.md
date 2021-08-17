@@ -15,9 +15,7 @@ sampletxt.txt:3:45:hello
 sampletxt.txt:3:63:hello
 
 ```
-Above is machine readable output with -m flag. 
-where -f flag - File path
--r flag - Pattern
+Above is machine readable output with -m flag where -f flag is File path -r flag is Pattern
 
 ```
 Cmd 2:
@@ -32,3 +30,15 @@ sampletxt.txt:Try to hello use OOP in order to encapsulate hello differences hel
 
 ```
 This is the normal output without -m flag
+
+
+## Error Handling Sample:
+
+```
+Cmd :
+python3 regex_match.py  -f sample.txt -r hello
+
+Output:
+file not found, enter correct file name
+
+```
