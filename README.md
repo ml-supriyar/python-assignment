@@ -16,8 +16,9 @@ sampletxt.txt:3:63:hello
 
 ```
 Above is machine readable output with -m flag. 
--f flag - File path
+where -f flag - File path
 -r flag - Pattern
+
 ```
 Cmd 2:
 python3 regex_match.py -f samplefile.txt -r hello
