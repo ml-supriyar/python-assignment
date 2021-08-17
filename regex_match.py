@@ -5,7 +5,7 @@ import os.path
 import argparse
 
 
-# Call function and print the expected Output
+# Function that prints the expected output
 def print_msg(file_name,line_number,pattern,line,machine,start_pos):
 # Print machine readable output if value is 1
     if machine==1:
@@ -61,7 +61,7 @@ def main():
     if machine==1 or machine==0:
         try:
             regex_search(path,pattern,machine)
-# If path and patern is empty then it will thow erro
+# If path and patern is empty then it will throw error
         except:
             print("please enter filename with f flag and pattern with -r flag")
             return
