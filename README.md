@@ -1,6 +1,6 @@
 # Python Assignment
 
-Python script that will check for a pattern inside the file. If a line has that pattern then print the output according to -m flag.
+Python script that will check for a pattern inside the file. If a line has that pattern then print the output accordingly.
 
 
 If -m ( --machine ) flag is 1 it will generate machine readable output with the below format. <br/>
