@@ -4,6 +4,7 @@ import sys
 import os.path
 import argparse
 
+
 # Call function and print the expected Output
 def print_msg(file_name,line_number,pattern,line,machine,start_pos):
 # Print machine readable output if value is 1
@@ -13,7 +14,6 @@ def print_msg(file_name,line_number,pattern,line,machine,start_pos):
         print("{}:{}".format(file_name,line))
     else:
         print("Please enter 0 or 1 for -m flag")
-
 
 
 # Checks if the file exists
@@ -37,6 +37,7 @@ def regex_search(path,pattern,machine):
             if start_pos==0 or start_pos:
                 print_msg(path,counter+1,pattern,line,machine,start_pos)
 
+                
 # Calls main function and takes the input argument          
 def main():
     parser = argparse.ArgumentParser()
@@ -67,7 +68,7 @@ def main():
     else:
         print("Please enter 0 or 1 for -m flag")
         return
-
+    
 
 if __name__ == "__main__":
     main()
