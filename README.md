@@ -23,7 +23,7 @@ sampletxt.txt:3:63:hello
 ```
 Above is machine readable output with -m flag 
 
-where : -f flag is File path -r flag is Pattern
+where : -f flag is File and path -r flag is Pattern
 
 ```
 Cmd 2:
