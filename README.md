@@ -21,7 +21,9 @@ sampletxt.txt:3:45:hello
 sampletxt.txt:3:63:hello
 
 ```
-Above is machine readable output with -m flag where -f flag is File path -r flag is Pattern
+Above is machine readable output with -m flag 
+
+where : -f flag is File path -r flag is Pattern
 
 ```
 Cmd 2:
