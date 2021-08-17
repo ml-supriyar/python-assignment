@@ -6,12 +6,6 @@ import argparse
 
 # Call function and print the expected Output
 def print_msg(file_name,line_number,pattern,line,machine,start_pos):
-# Handles error if the input is not an integer 
-try:
-        machine=int(machine)
-    except:
-        print("Please enter 0 or 1 for -m flag")
-        return
 # Print machine readable output if value is 1
     if machine==1:
         print("{}:{}:{}:{}".format(file_name,line_number,start_pos,pattern))
@@ -56,6 +50,7 @@ def main():
 # Handles error  , if machine is none then it will be initialized to zero
     if machine==None:
         machine=0
+# Handles error if the input is not an integer 
     try:
         machine=int(machine)
     except:
