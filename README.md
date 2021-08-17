@@ -7,7 +7,7 @@ This script uses re module to which lets you check if a particular string matche
 ## Below are some Sample Outputs:
 ```
 Cmd 1:
-python3 regex_match.py -f sampletxt.txt -r hello -m 1
+python3 regex_match.py -f samplefile.txt -r hello -m 1
 
 Output:
 sampletxt.txt:3:7:hello
@@ -15,11 +15,12 @@ sampletxt.txt:3:45:hello
 sampletxt.txt:3:63:hello
 
 ```
-Above is machine readable output with -m flag.
-
+Above is machine readable output with -m flag. 
+-f flag - File path
+-r flag - Pattern
 ```
 Cmd 2:
-python3 regex_match.py -f sampletxt.txt -r hello
+python3 regex_match.py -f samplefile.txt -r hello
 
 Output:
 sampletxt.txt:Try to hello use OOP in order to encapsulate hello differences hello between output
